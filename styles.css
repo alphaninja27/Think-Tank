@@ -1,0 +1,167 @@
+/* /
+
+body
+{
+    overflow: hidden;
+    height: 100%;
+}
+
+
+.main-text
+{
+    position: relative;
+    top: 160px;
+    left: 80px;
+   
+}
+
+.logo
+{
+    height: 300px;
+    position: relative;
+    left: 60%;
+}
+
+.middle
+{
+    position: relative;
+    top: 150px;
+    text-align: center;
+
+}
+ */
+
+ body
+ {
+     /* background-color:#0A1931; */
+     font-family: ubuntu;
+     background-color: #2D4059;
+     
+
+ }
+
+ .bottom
+ {
+    background-color: #DDDDDD;
+ }
+
+.main-text
+{
+    color: white;
+    position: relative;
+    right: 40px;
+    width: 60%;
+}
+
+.img-holder
+{
+    width: 40%;
+}
+
+ h1
+ {
+     /* color: #FFC947; */
+     font-family:'Monoton', cursive;
+     font-size: 5rem;
+     padding-left: 20px;
+     
+ }
+
+.subheading
+{
+    /* color:#FFA900; */
+    padding-top: 50px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+ .logo
+ {
+    width: 70%;
+     margin-left: 200px;
+     text-align: center;
+ }
+
+ .container-fluid
+ {
+     padding: 3% 15%;
+     position: relative;
+ }
+
+.barnav
+{   padding-top: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 10px;
+    width: 100%;
+    /* background-color: #0A1931; */
+    background-color: #2D4059;
+   
+}
+
+.navbar-nav
+{
+    margin-left: 70%;
+}
+
+.nav-link
+{
+    font-size: 1.15rem;
+}
+
+.navbar-brand
+{
+    font-size: 1.5rem;
+    font-family: ubuntu ;
+}
+
+ .middle
+ {
+     text-align: center;
+     padding-top: 100px;
+ }
+
+ 
+    .card-img-top {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+       
+        bottom: 1px;
+    }
+ 
+
+ /* .skills
+ {
+     position: absolute;
+     right: 20%;
+ } */
+
+ .card
+ {
+     margin-top: 60px;
+     background-color: #EFEFEF;
+     margin-left: 25%;
+     transition: box-shadow 0.3s ease-in-out;
+     
+     
+ }
+
+.card:hover
+{
+    box-shadow: 10px 10px 5px grey;
+    
+}
+
+ .card-title
+ {
+    color:#4C4C6D;
+ }
+
+ .choice
+ {
+     /* position: relative;
+     right: 40px; */
+     color:chocolate ;
+     font-size: 2.5rem;
+ }
