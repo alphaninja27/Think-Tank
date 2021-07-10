@@ -1,6 +1,7 @@
 body
 {
     font-family: ubuntu;
+    font-style:black ;
 }
 
 .barnav
@@ -56,7 +57,7 @@ img
     font-size: 6rem;
     color:white;
     font-family:'Monoton', cursive;
-   min-height: calc(100vh - 211px -58px); 
+   
 }
 
 .middle
@@ -75,8 +76,24 @@ img
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
 }
-.footer {
-    background-color: aqua;
-    color: azure;
-    padding: 50px;
+.ul{
+    list-style: disc;
+}
+.footer
+{
+    background-color: cadetblue;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4
+{
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom:30px;
+    font-weight:500;
+    position: relative;
 }
